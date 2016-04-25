@@ -1,0 +1,15 @@
+name: RemoveInv
+main: com.haniokasai.nukkit.RemoveInv.Main
+version: 0.0.1
+author: haniokasai
+api: ["1.0.0"]
+description: RemoveInventory
+website: http://haniokasai.com
+
+commands:
+   ri:
+      description: remove inventory
+      usage: /core
+      permission: removeinv.cmd
+      permission-message: You don't have <permission>
+      default: true
